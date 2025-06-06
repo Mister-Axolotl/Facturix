@@ -1,0 +1,27 @@
+meta {
+  name: update facture
+  type: http
+  seq: 5
+}
+
+put {
+  url: {{url}}/factures/11
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "id": 11,
+    "userId": 1,
+    "description": "Test modification facture",
+    "date": "2024-05-01",
+    "totalHT": 2750,
+    "totalTTC": 3300,
+    "tva": 20
+  }
+}

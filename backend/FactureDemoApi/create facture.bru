@@ -1,0 +1,27 @@
+meta {
+  name: create facture
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{url}}/factures
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "id": 11,
+    "userId": 1,
+    "description": "Test post",
+    "date": "2024-05-01",
+    "totalHT": 2750,
+    "totalTTC": 3300,
+    "tva": 20
+  }
+}

@@ -1,0 +1,286 @@
+[
+  {
+    "userId": 1,
+    "description": "Festin du village",
+    "date": "2024-05-01",
+    "totalHT": 1000,
+    "totalTTC": 1200,
+    "tva": 20,
+    "id": 1
+  },
+  {
+    "id": 2,
+    "userId": 2,
+    "description": "Réparation du char d'Abraracourcix",
+    "date": "2024-05-03",
+    "totalHT": 600,
+    "totalTTC": 720,
+    "tva": 20,
+    "prestations": [
+      {
+        "id": 3,
+        "description": "Remplacement des roues",
+        "quantity": 4,
+        "prixUnitaire": 100,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 400,
+        "tva": 20,
+        "factureId": 2
+      },
+      {
+        "id": 4,
+        "description": "Graissage du char",
+        "quantity": 1,
+        "prixUnitaire": 200,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 0,
+        "tva": 20,
+        "factureId": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "userId": 3,
+    "description": "Livraison de menhirs",
+    "date": "2024-05-05",
+    "totalHT": 1500,
+    "totalTTC": 1800,
+    "tva": 20,
+    "prestations": [
+      {
+        "id": 5,
+        "description": "Transport de menhirs",
+        "quantity": 5,
+        "prixUnitaire": 300,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 1500,
+        "tva": 20,
+        "factureId": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "userId": 4,
+    "description": "Cours de chant d'Assurancetourix",
+    "date": "2024-05-07",
+    "totalHT": 100,
+    "totalTTC": 120,
+    "tva": 20,
+    "prestations": [
+      {
+        "id": 6,
+        "description": "Leçon de lyre",
+        "quantity": 2,
+        "prixUnitaire": 30,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 60,
+        "tva": 20,
+        "factureId": 4
+      },
+      {
+        "id": 7,
+        "description": "Chant gaulois",
+        "quantity": 2,
+        "prixUnitaire": 20,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 0,
+        "tva": 20,
+        "factureId": 4
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "userId": 5,
+    "description": "Sécurité du village",
+    "date": "2024-05-10",
+    "totalHT": 800,
+    "totalTTC": 960,
+    "tva": 20,
+    "prestations": [
+      {
+        "id": 8,
+        "description": "Distribution de baffes aux Romains",
+        "quantity": 8,
+        "prixUnitaire": 100,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 800,
+        "tva": 20,
+        "factureId": 5
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "userId": 6,
+    "description": "Construction de palissade",
+    "date": "2024-05-12",
+    "totalHT": 1200,
+    "totalTTC": 1440,
+    "tva": 20,
+    "prestations": [
+      {
+        "id": 9,
+        "description": "Bois de chêne",
+        "quantity": 20,
+        "prixUnitaire": 40,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 800,
+        "tva": 20,
+        "factureId": 6
+      },
+      {
+        "id": 10,
+        "description": "Main d'œuvre Obélix",
+        "quantity": 2,
+        "prixUnitaire": 200,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 400,
+        "tva": 20,
+        "factureId": 6
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "userId": 7,
+    "description": "Organisation des Jeux Olympiques",
+    "date": "2024-05-15",
+    "totalHT": 2000,
+    "totalTTC": 2400,
+    "tva": 20,
+    "prestations": [
+      {
+        "id": 11,
+        "description": "Location de stade",
+        "quantity": 1,
+        "prixUnitaire": 1000,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 1000,
+        "tva": 20,
+        "factureId": 7
+      },
+      {
+        "id": 12,
+        "description": "Fourniture de la potion magique",
+        "quantity": 2,
+        "prixUnitaire": 500,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 0,
+        "tva": 20,
+        "factureId": 7
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "userId": 8,
+    "description": "Déplacement à Lutèce",
+    "date": "2024-05-18",
+    "totalHT": 700,
+    "totalTTC": 840,
+    "tva": 20,
+    "prestations": [
+      {
+        "id": 13,
+        "description": "Location de chars",
+        "quantity": 2,
+        "prixUnitaire": 200,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 400,
+        "tva": 20,
+        "factureId": 8
+      },
+      {
+        "id": 14,
+        "description": "Péages romains",
+        "quantity": 2,
+        "prixUnitaire": 150,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 0,
+        "tva": 20,
+        "factureId": 8
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "userId": 9,
+    "description": "Banquet en l'honneur d'Astérix",
+    "date": "2024-05-20",
+    "totalHT": 900,
+    "totalTTC": 1080,
+    "tva": 20,
+    "prestations": [
+      {
+        "id": 15,
+        "description": "Sangliers farcis",
+        "quantity": 6,
+        "prixUnitaire": 100,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 600,
+        "tva": 20,
+        "factureId": 9
+      },
+      {
+        "id": 16,
+        "description": "Hydromel",
+        "quantity": 3,
+        "prixUnitaire": 100,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 0,
+        "tva": 20,
+        "factureId": 9
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "userId": 10,
+    "description": "Défense contre les pirates",
+    "date": "2024-05-22",
+    "totalHT": 1100,
+    "totalTTC": 1320,
+    "tva": 20,
+    "prestations": [
+      {
+        "id": 17,
+        "description": "Coulage de navire pirate",
+        "quantity": 1,
+        "prixUnitaire": 1000,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 1000,
+        "tva": 20,
+        "factureId": 10
+      },
+      {
+        "id": 18,
+        "description": "Récupération de trésor",
+        "quantity": 2,
+        "prixUnitaire": 50,
+        "remise": 0,
+        "typeRemise": "fixed",
+        "montantPaye": 0,
+        "tva": 20,
+        "factureId": 10
+      }
+    ]
+  }
+]

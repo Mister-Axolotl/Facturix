@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "nom": "Obelixcuse",
+    "prenom": "Brice",
+    "email": "brice.obelixcuse@village.ga",
+    "telephone": "06 11 11 11 01",
+    "entreprise": null,
+    "adresse": null,
+    "dateCreation": "2024-06-01"
+  },
+  {
+    "id": 2,
+    "nom": "Pastapartix",
+    "prenom": "Clara",
+    "email": "clara.pastapartix@gaulois.fr",
+    "telephone": "06 11 11 11 02",
+    "dateCreation": "2024-06-01"
+  },
+  {
+    "id": 3,
+    "nom": "Rigoladrix",
+    "prenom": "Léo",
+    "email": "leo.rigoladrix@humour.ga",
+    "telephone": "06 11 11 11 03",
+    "dateCreation": "2024-06-01"
+  },
+  {
+    "id": 4,
+    "nom": "Seriepix",
+    "prenom": "Nina",
+    "email": "nina.seriepix@netfix.ga",
+    "telephone": "06 11 11 11 04",
+    "dateCreation": "2024-06-01"
+  },
+  {
+    "id": 5,
+    "nom": "Jemenfoutix",
+    "prenom": "Axel",
+    "email": "axel.jemenfoutix@cool.ga",
+    "telephone": "06 11 11 11 05",
+    "dateCreation": "2024-06-01"
+  },
+  {
+    "id": 6,
+    "nom": "Kestudisix",
+    "prenom": "Lila",
+    "email": "lila.kestudisix@blabla.ga",
+    "telephone": "06 11 11 11 06",
+    "dateCreation": "2024-06-01"
+  },
+  {
+    "id": 7,
+    "nom": "Pasviteux",
+    "prenom": "Jules",
+    "email": "jules.pasviteux@tortix.ga",
+    "telephone": "06 11 11 11 07",
+    "dateCreation": "2024-06-01"
+  },
+  {
+    "id": 8,
+    "nom": "Autograffix",
+    "prenom": "Sophie",
+    "email": "sophie.autograffix@murix.ga",
+    "telephone": "06 11 11 11 08",
+    "dateCreation": "2024-06-01"
+  },
+  {
+    "id": 9,
+    "nom": "Reloumachix",
+    "prenom": "Théo",
+    "email": "theo.reloumachix@boulet.ga",
+    "telephone": "06 11 11 11 09",
+    "dateCreation": "2024-06-01"
+  },
+  {
+    "id": 10,
+    "nom": "Tiktokeurix",
+    "prenom": "Inès",
+    "email": "ines.tiktokeurix@scrollix.ga",
+    "telephone": "06 11 11 11 10",
+    "dateCreation": "2024-06-01"
+  }
+]
